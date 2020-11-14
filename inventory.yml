@@ -1,0 +1,19 @@
+all:
+  hosts:
+    localhost:
+  children:
+    target1:
+      children:
+        sub1:
+          hosts:
+            server1:
+              # ansible_user: philranzato
+              # ansible_private_key_file: ~/.ssh/id_rsa
+              # ansible_host: 10.100.0.10
+        sub2:
+          hosts:
+            server2:
+            server3:
+    target2:
+      hosts:
+        server2:

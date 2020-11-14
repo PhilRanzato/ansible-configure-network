@@ -1,0 +1,4 @@
+---
+- src: git+git@github.com:PhilRanzato/philranzato.ansible-role.git
+  version: v1.0.0
+  name: philranzato.ansible-role

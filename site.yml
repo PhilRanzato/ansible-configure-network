@@ -1,0 +1,7 @@
+---
+- name: "Play1"
+  hosts: target2
+  roles:
+  - { role: philranzato.ansible-role }
+  vars_files:
+  - vars/vars.yml
