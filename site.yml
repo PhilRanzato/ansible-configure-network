@@ -1,7 +1,7 @@
 ---
-- name: "Play1"
-  hosts: target2
+- name: "Configure Network"
+  hosts: target
   roles:
-  - { role: philranzato.ansible-role }
+  - { role: philranzato.configure-network }
   vars_files:
   - vars/vars.yml

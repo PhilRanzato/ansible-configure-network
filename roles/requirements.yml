@@ -1,4 +1,4 @@
 ---
-- src: git+git@github.com:PhilRanzato/philranzato.ansible-role.git
+- src: git+git@github.com:PhilRanzato/philranzato.configure-network.git
   version: v1.0.0
-  name: philranzato.ansible-role
+  name: philranzato.configure-network
